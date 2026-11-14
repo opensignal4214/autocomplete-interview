@@ -1,0 +1,14 @@
+{
+  "name": "people-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mock people directory API for the autocomplete interview",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start:calm": "node -e \"process.env.CHAOS='0'; import('./server.js')\""
+  }
+}
