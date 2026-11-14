@@ -19,7 +19,7 @@ you see in the "To:" field of an email client or when adding people to a Slack c
 
 ```bash
 # 1. Clone the repo
-git clone <REPO_URL> autocomplete-interview
+git clone https://github.com/opensignal4214/autocomplete-interview.git autocomplete-interview
 cd autocomplete-interview
 
 # 2. Start the mock API (no npm install needed; it has zero dependencies)
